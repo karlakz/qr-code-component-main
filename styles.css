@@ -1,0 +1,57 @@
+:root {
+    box-sizing: border-box;
+}
+  
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: auto;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+  
+body * + * {
+    margin-top: 1.5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    margin: 4rem auto;
+    padding: 1em;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.5em;
+}
+
+.container img {
+    border-radius: 0.5em;
+}
+
+p.bold {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    color: hsl(218, 44%, 22%);
+}
+
+p.normal {
+    font-weight: normal;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    margin-top: 0;
+    font-size: 0.9rem;
+}
+
+.attribution { 
+    font-size: 0.8em; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
